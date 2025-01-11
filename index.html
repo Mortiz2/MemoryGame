@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>memory</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="header">
+    <div id="counter">Guesses: 0</div>
+    <div id="timer">Time: 0s</div>
+</div>
+<div class="memory">
+    <div class="tile" data-framework="apple">
+        <img class="front" src="fruits/apple.png" alt="apple">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="banana">
+        <img class="front" src="fruits/banana.png" alt="banana">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="blackberry">
+        <img class="front" src="fruits/blackberry.png" alt="blackberry">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="blueberry">
+        <img class="front" src="fruits/blueberry.png" alt="blueberry">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="cantaloupe">
+        <img class="front" src="fruits/cantaloupe.png" alt="cantaloupe">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="coconut">
+        <img class="front" src="fruits/coconut.png" alt="coconut">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="grape">
+        <img class="front" src="fruits/grape.png" alt="grape">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="kiwi">
+        <img class="front" src="fruits/kiwi.png" alt="kiwi">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="lemon">
+        <img class="front" src="fruits/lemon.png" alt="lemon">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="orange">
+        <img class="front" src="fruits/orange.png" alt="orange">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="papaya">
+        <img class="front" src="fruits/papaya.png" alt="papaya">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="peach">
+        <img class="front" src="fruits/peach.png" alt="peach">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="pear">
+        <img class="front" src="fruits/pear.png" alt="pear">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="pineapple">
+        <img class="front" src="fruits/pineapple.png" alt="pineapple">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="strawberry">
+        <img class="front" src="fruits/strawberry.png" alt="apple">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" >
+        <img class="front" src="fruits/apple.png" alt="apple">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="banana">
+        <img class="front" src="fruits/banana.png" alt="banana">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="blackberry">
+        <img class="front" src="fruits/blackberry.png" alt="blackberry">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="blueberry">
+        <img class="front" src="fruits/blueberry.png" alt="blueberry">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="cantaloupe">
+        <img class="front" src="fruits/cantaloupe.png" alt="cantaloupe">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="coconut">
+        <img class="front" src="fruits/coconut.png" alt="coconut">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="grape">
+        <img class="front" src="fruits/grape.png" alt="grape">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="kiwi">
+        <img class="front" src="fruits/kiwi.png" alt="kiwi">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="lemon">
+        <img class="front" src="fruits/lemon.png" alt="lemon">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="orange">
+        <img class="front" src="fruits/orange.png" alt="orange">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="papaya">
+        <img class="front" src="fruits/papaya.png" alt="papaya">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="peach">
+        <img class="front" src="fruits/peach.png" alt="peach">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="pear">
+        <img class="front" src="fruits/pear.png" alt="pear">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="pineapple">
+        <img class="front" src="fruits/pineapple.png" alt="pineapple">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+    <div class="tile" data-framework="strawberry">
+        <img class="front" src="fruits/strawberry.png" alt="apple">
+        <img class="back" src="fruits/question.png" alt="question mark">
+    </div>
+
+</div>
+</body>
+</html>
