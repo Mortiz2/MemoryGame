@@ -77,10 +77,11 @@ body {
     transform: rotateY(180deg);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .memory {
-        width: 90vw; /* Make the grid take 90% of the screen width */
-        grid-template-columns: repeat(5, 1fr); /* 4 columns */
-        grid-template-rows: repeat(6, 1fr); /* Reduce to 4 rows */
+        width: 768px;
+        height: 921px;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(6, 1fr);
     }
 }
