@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function checkForMatch() {
-        if (firstCard.dataset.framework === secondCard.dataset.framework) {
+        if (firstCard.dataset.fruit === secondCard.dataset.fruit) {
             disableCards();
         } else {
             unflipCards();
